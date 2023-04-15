@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BLUENRG-232")(type "Legacy")(uri "C:/Users/trash/repos/wirelessProject/EDA/BLUENRG-232/BLUENRG-232.lib")(options "")(descr ""))
+  (lib (name "2023-03-22_16-52-26")(type "KiCad")(uri "C:/Users/trash/repos/wirelessProject/EDA/EAST1616RGBA8/KiCAD/2023-03-22_16-52-26/2023-03-22_16-52-26.kicad_sym")(options "")(descr ""))
+  (lib (name "TL3315NF160Q")(type "Legacy")(uri "C:/Users/trash/repos/wirelessProject/EDA/TL3315NF160Q/TL3315NF160Q.lib")(options "")(descr ""))
+  (lib (name "KAE01SGGT")(type "Legacy")(uri "C:/Users/trash/repos/wirelessProject/EDA/KAE01SGGT/KAE01SGGT.lib")(options "")(descr ""))
+  (lib (name "ECS-.327-12.5-16-TR")(type "Legacy")(uri "C:/Users/trash/repos/wirelessProject/EDA/ECS-.327-12.5-16-TR/ECS-.327-12.5-16-TR.lib")(options "")(descr ""))
+  (lib (name "ECS-320-8-47-JTN-TR")(type "Legacy")(uri "C:/Users/trash/repos/wirelessProject/EDA/ECS-320-8-47-JTN-TR/ECS-320-8-47-JTN-TR.lib")(options "")(descr ""))
+  (lib (name "Project_Library")(type "KiCad")(uri "C:/Users/trash/repos/wirelessProject/EDA/Project_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "BALF_NRG_02D3")(type "KiCad")(uri "C:/Users/trash/repos/wirelessProject/EDA/BALF_NRG_02D3/BALF_NRG_02D3.kicad_sym")(options "")(descr ""))
+)
