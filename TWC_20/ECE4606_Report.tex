@@ -1,0 +1,113 @@
+%\documentclass[journal,twoside]{IEEEtran}
+\documentclass[12pt,journal,onecolumn,draftclsnofoot]{IEEEtran}
+%\documentclass[onecolumn,12pt, peerreview]{IEEEtran}
+
+\ifCLASSINFOpdf
+\else
+\fi
+
+%\usepackage[T1]{fontenc}
+\usepackage{amsmath, amsfonts, amssymb}
+%\usepackage[cmintegrals]{newtxmath}
+\usepackage{cite}
+\usepackage{algorithmic}
+\usepackage{graphicx,graphics}
+\usepackage{textcomp}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes}
+\usepackage{tabulary}
+\usepackage{array}
+\usepackage{comment}
+\usepackage{subcaption}
+%\usepackage{siunitx}
+\usepackage{svg}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{MnSymbol}
+\usepackage{mathtools}
+\usepackage{scalerel}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\newcommand\scalemath[2]{\scalebox{#1}{\mbox{\ensuremath{\displaystyle #2}}}}
+
+\newenvironment{smalleralign}[1][\small]
+ {\par\nopagebreak\leavevmode\vspace*{-\baselineskip}%
+  \skip0=\abovedisplayskip
+  #1%
+  \def\maketag@@@##1{\hbox{\m@th\normalfont\normalsize##1}}%
+  \abovedisplayskip=\skip0
+  \align}
+ {\endalign\ignorespacesafterend}
+ 
+% correct bad hyphenation here
+%\hyphenation{op-tical net-works semi-conduc-tor}
+%\raggedbottom
+\allowdisplaybreaks
+
+%\doublespacing
+\begin{document}
+\title{ECE 4606 STMicroelectronics BLUENRG-2 Bluetooth 5.0 Wireless Tranceiver }
+
+\author{Tige Kinsey
+}
+
+% The paper headers
+\markboth{IEEE TRANSACTIONS ON WIRELESS COMMUNICATIONS}{Reddy \MakeLowercase{\textit{et al.}}: A Wireless Geophone Network Architecture using
+IEEE 802.11af with Power Saving Schemes}
+
+% make the title area
+\maketitle
+\vspace{-18mm}
+
+\begin{abstract}
+Insert abstract here.
+\end{abstract}
+
+% Note that keywords are not normally used for peerreview papers.
+\begin{IEEEkeywords}
+seismic measurements, wireless geophone networks, wireless LAN, power saving.
+\end{IEEEkeywords}
+
+\IEEEpeerreviewmaketitle
+%\setstretch{2}
+\newpage
+\section{Introduction}
+Insert Introduction
+\section{Body stuff}
+Some body
+\section{Conclusion}
+Insert Conclusion
+\appendices
+\section{}
+\label{appendix:hessian}
+A
+%\begin{comment}
+\section{}
+\label{appendix:mon-dec}
+As considered in Appendix~\ref{appendix:hessian}
+%\end{comment}
+%\section*{Acknowledgment}
+%This work is supported by the Center for Energy and Geo Processing at Georgia Institute of Technology and King Fahd University of Petroleum and Minerals (KFUPM), under research grant number GTEC1601.
+%The authors appreciate KFUPM support of this work
+
+%\newpage
+%\setstretch{1.28}
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,Ref}
+
+% biography section
+% 
+% If you have an EPS/PDF photo (graphicx package needed) extra braces are
+% needed around the contents of the optional argument to biography to prevent
+% the LaTeX parser from getting confused when it sees the complicated
+% \includegraphics command within an optional argument. (You could create
+% your own custom macro containing the \includegraphics command to make things
+% simpler here.)
+
+\end{document}
